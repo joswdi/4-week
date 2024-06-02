@@ -1,0 +1,189 @@
+body {
+    padding-left: 200px;
+    padding-right: 200px;
+    display: grid;
+    grid-template-columns: repeat(1fr, 12);
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.heading-text {
+    color: #000;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0;
+}
+.usual-text {
+    color: #000;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+header {
+    position: fixed;
+}
+.logo {
+    color: #000000;
+    font-family: "Squada One", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.logo-icon {
+    width: 16px;
+    height: 16px;
+}
+.nav-list {
+    list-style-type: none;
+    padding-left: 446px;
+    margin-top: -37px;
+}
+.nav-item {
+    display: inline-block;
+    margin-left: 48px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+main {
+    padding-top: 192px;
+}
+button {
+    color: #FFF;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 32px;
+    width: 306px;
+    height: 43px;
+    border-radius: 4px;
+    background: #E05124;
+    box-shadow: 0px 8px 30px 0px rgba(224, 81, 36, 0.40);
+    border-style: none;
+}
+.shadow {
+    box-shadow: 0px 16px 100px rgba(0, 0, 0, 0.20);
+    border-radius: 16px;
+}
+.avocado-block {
+    box-sizing: border-box;
+    position: relative;
+    padding-left: 34px;
+    padding-top: 38px;
+    padding-bottom: 39px;
+}
+.avocado-heading {
+    font-size: 32px;
+    font-weight: 800;
+}
+.avocado {
+    position: absolute;
+    width: 211px;
+    height: 266px;
+    top: 0px;
+    left: 725px;
+}
+#delivery {
+    display: grid;
+    grid-template-columns: repeat(1fr, 6);
+    grid-gap: 16px;
+}
+.sub-card {
+    position: relative;
+    margin-top: 40px;
+    width: 336px;
+    height: 570px;
+    grid-column: 1fr 1fr;
+    h3 {
+        font-size: 32px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 32px;
+        font-weight: 800;
+    }
+    p {
+        margin-top: 14px;
+        font-size: 14px;
+    }
+    span {
+        font-size: 22px;
+        position: absolute;
+        left: 130px;
+    }
+    ul {
+        list-style: none;
+    }
+    li {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        text-align: left;
+        margin-top: 15px;
+        margin-bottom: 14px;
+    }
+}
+.price {
+    color: #E05124;
+    font-size: 40px;
+    text-shadow: 8px 8px 30px rgba(224, 81, 36, 0.40);
+    opacity: 1;
+}
+.success {
+    color: #32870A;
+}
+.decline {
+    color: #E05124;
+}
+.sub-desc {
+    text-align: center;
+}
+.sub-image {
+    width: 22px;
+    height: 22px;
+    grid-column: 3/4;
+    padding-top: 10px;
+}
+.sub-item {
+    grid-column: 1/2;
+    width: 197px;
+}
+.gray {
+    background-color: #f2f2f2;
+}
+.gradient {
+    border-radius: 16px;
+    background: linear-gradient(145deg, #22E871 15.38%, #658324 79.28%, #A56B26 100%);
+    box-shadow: 0px 20px 100px 0px rgba(33, 99, 10, 0.65);
+}
+#dishes {
+    display: grid;
+    grid-template-columns: repeat(512px, 2);
+}
+.diet-card {
+    width: 512px;
+    height: 146px;
+    padding-top: 40px;
+    padding-left: 32px;
+    position: relative;
+}
+.diet-heading {
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+.pineapple {
+    position: absolute;
+    left: 420px;
+    top: -20px;
+}
+.cheese {
+    position: absolute;
+    left: 345px;
+    top: 40px;
+}
